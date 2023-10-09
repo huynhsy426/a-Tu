@@ -7,9 +7,9 @@ const routes: express.Router = express.Router();
 
 routes.use('/api/images', images);
 
-const imagesFullPath = path.resolve(`D:/06_Learn-IT/OnTap/NodeJS/a-Tu/image-design/udacity-image-processing-api/assets/images/full`);
+const imagesFullPath = path.resolve(`D:/06_Learn-IT/OnTap/NodeJS/a-Tu/design-image/udacity-image-processing-api/assets/images/full`);
 
-const imagesThumbPath = path.resolve(`D:/06_Learn-IT/OnTap/NodeJS/a-Tu/image-design/udacity-image-processing-api/assets/images/thumb`);
+const imagesThumbPath = path.resolve(`D:/06_Learn-IT/OnTap/NodeJS/a-Tu/design-image/udacity-image-processing-api/assets/images/thumb`);
 
 
 // An array of image file extensions to consider
